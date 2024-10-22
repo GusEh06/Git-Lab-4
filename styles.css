@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+    background-color: #f3f4f6;
+  }
+
+
+
+  .tabla-periodica {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .elemento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .elemento p {
+    font-size: 15px;
+    margin: 0;
+
+  }
+
+  .seccion1{
+    background-color: #F7CAAC;
+  }
+  .seccion2{
+    background-color: #FFE599;
+  }
+  .seccion3{
+    background-color: #FFFF00;
+  }
+  .seccion4{
+    background-color: #8EAADB;
+  }
+  .seccion5{
+    background-color: #68FB61;
+  }
+  .seccion6{
+    background-color: #DDABFF;
+  }
+  .seccion7{
+    background-color: #FF66FF;
+  }
+  .seccion8{
+    background-color: #00CCFF;
+  }
+  
+
+  .H { grid-column: 1; grid-row: 1; }
+  .He { grid-column: 18; grid-row: 1; }
+  .Li { grid-column: 1; grid-row: 2; }
+  .Be { grid-column: 2; grid-row: 2; }
+  .B { grid-column: 13; grid-row: 2; }
+  .C { grid-column: 14; grid-row: 2; }
+  .N { grid-column: 15; grid-row: 2; }
+  .O { grid-column: 16; grid-row: 2; }
+  .F { grid-column: 17; grid-row: 2; }
+  .Ne { grid-column: 18; grid-row: 2; }
+  .Na { grid-column: 1; grid-row: 3; }
+  .Mg { grid-column: 2; grid-row: 3; }
+  .Al { grid-column: 13; grid-row: 3; }
+  .Si { grid-column: 14; grid-row: 3; }
+  .P { grid-column: 15; grid-row: 3; }
+  .S { grid-column: 16; grid-row: 3; }
+  .Cl { grid-column: 17; grid-row: 3; }
+  .Ar { grid-column: 18; grid-row: 3; }
+  .f4 {grid-row: 4;}
+  .f5 {grid-row: 5;}
+  .f6 {grid-row: 6;}
+  .f7 {grid-row: 7;}
+
+
+  @media(max-width: 600px){
+    .tabla-periodica { 
+      grid-template-columns: repeat(2, 1fr); 
+  }
+  
+
+  .H { grid-column: 1; grid-row: 1; }
+  .He { grid-column: 2; grid-row: 1; }
+  .Li { grid-column: 1; grid-row: 2; }
+  .Be { grid-column: 2; grid-row: 2; }
+  .B { grid-column: 1; grid-row: 3; }
+  .C { grid-column: 2; grid-row: 3; }
+  .N { grid-column: 1; grid-row: 4; }
+  .O { grid-column: 2; grid-row: 4; }
+  .F { grid-column: 1; grid-row: 5; }
+  .Ne { grid-column: 2; grid-row: 5; }
+  .Na { grid-column: 1; grid-row: 6; }
+  .Mg { grid-column: 2; grid-row: 6; }
+  .Al { grid-column: 1; grid-row: 7; }
+  .Si { grid-column: 2; grid-row: 7; }
+  .P { grid-column: 1; grid-row: 8; }
+  .S { grid-column: 2; grid-row: 8; }
+  .Cl { grid-column: 1; grid-row: 9; }
+  .Ar { grid-column: 2; grid-row: 9; }
+  
+   }
